@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 1</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav {
+      background-color: #303030;
+    }
+
+    .menu-categorias {
+      min-height: 60px;
+      margin: 0;
+      padding: 0 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 18px;
+      font-style: normal;
+      flex-wrap: wrap;
+    }
+
+    .menu-categorias a {
+      color: #eeeeee;
+      font-size: 12px;
+      text-decoration: none;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .menu-categorias a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 700px) {
+      .menu-categorias {
+        justify-content: flex-start;
+        padding: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav aria-label="Categorias de produtos">
+    <address class="menu-categorias">
+      <a href="#">Creatina</a>
+      <a href="#">Proteínas</a>
+      <a href="#">Barra de proteína</a>
+      <a href="#">Hipercalórico</a>
+      <a href="#">Pré treino</a>
+      <a href="#">Central de promoções</a>
+      <a href="#">Kits por objetivos</a>
+    </address>
+  </nav>
+
+</body>
+</html>
